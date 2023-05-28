@@ -1,0 +1,121 @@
+/* .box { 
+  padding: 20px;
+  background-color: aquamarine;
+  border-style: solid;
+  border-width: 3px;
+  margin: 30px;
+} .box for my own understanding*/
+body {
+  background: rgb(218, 239, 220);
+}
+/*Top Navigation Bar*/
+.topNav {
+  background-color: black;
+  color: rgb(81, 240, 78);
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 14px 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.topNav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.topNav a:hover {
+  background-color: rgb(89, 210, 97);
+  color: black;
+}
+
+.topNav a:current {
+  color: whitesmoke;
+}
+/*Website name/logo for all pages*/
+.siteTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: 40px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; /*text-stroke for outline text*/
+  display: flex;
+  align-items: center; /*centered y*/
+  justify-content: center; /*centered x*/
+  background-image: url(images/header.jfif);
+  margin-top: 0%;
+}
+/* TOUR page styling */
+/* page subtitles h2 */
+.subtitle {
+  color: rgb(32, 150, 39);
+}
+/* table caption for assistive tech */
+caption {
+  color: rgb(89, 210, 97);
+  font-size: 20px;
+}
+/* align table center */
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* table cell with space around */
+td {
+  padding: 0.5rem;
+}
+.tourDate {
+  font-weight: bold;
+  font-size: 18px;
+}
+.tourImg1 {
+  float: left;
+  border: 1px solid black;
+  margin: 0px 10px 0px 0px;
+}
+.tourImg2 {
+  float: right;
+  border: 1px solid black;
+  margin: 0px 10px 0px 0px;
+}
+
+/* ABOUT page styling */
+h3 {
+  color: rgb(28, 70, 27);
+}
+/* subscribe newsletter form styling */
+form {
+  border: 4px solid #f1f1f1;
+  background: rgb(159, 201, 158);
+}
+/* style subscribe button */
+input[type="submit"] {
+  background: rgb(186, 217, 188);
+  color: rgb(67, 66, 66);
+  border: none;
+}
+input[type="submit"]:hover {
+  opacity: 0.4;
+}
+/* store page styling */
+.storeContainer {
+  padding: 20px;
+}
+.storeItem {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(89, 210, 97);
+  text-align: center;
+}
+.storeItemImg {
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.storeItemPrice {
+  color: rgb(83, 73, 73);
+  font-size: 19px;
+}
